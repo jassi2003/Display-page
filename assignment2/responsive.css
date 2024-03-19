@@ -1,0 +1,167 @@
+@media(min-width:285px ) and (max-width:400px){
+    header::before{
+        background: url('https://4.bp.blogspot.com/-NusT8_BxXvU/WigtjvJvKLI/AAAAAAABOyg/VP7N3f2xgkAOOU2LPKaVCBdTsMiDJp_EgCK4BGAYYCw/s1600/Web-design.jpg')no-repeat center center/cover;
+        /* background-size: cover; */
+        content: "";
+         position: absolute; 
+        top: 0;
+        left: 0;
+        width: 300%;
+        height: 300%;
+        z-index: -1;
+        opacity: 0.5;
+        
+    }
+    .logo{
+        color: rgb(250, 250, 250);
+        font-size: 1.2rem;
+        padding-left: 40px;
+        margin: 20px;
+    }
+    .navbar{
+        padding: 10px 30px;
+        font-size: 1.2rem;
+        display: flex;
+        margin-right: 100px;
+        gap: 25px;
+
+        }
+
+        .navbar  a{
+            text-decoration: none;
+            margin: 20px;
+            color: rgb(246, 240, 240);
+            font-size: 40px;
+            font-family: "Abril Fatface", serif;
+            }
+            header{
+                display: flex;
+                justify-content: space-between;
+                padding: 25px 0px;
+                margin: 30px;
+            }
+            nav{
+                /* display: flex; */
+            
+            }
+        
+    .leftSection{
+        /* border: 2px solid red; */
+        width: 500px;
+        margin: 150px;
+        height: 80px;
+        text-align: center;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .leftSection span{
+        font-size: 6rem;
+        }
+        .leftSection p{
+            font-size: 40px;
+        }
+        .circles{
+            display: flex;
+            
+            }
+
+}
+
+@media(min-width:400px) and (max-width:700px){
+    header{
+        display: flex;
+        justify-content: left;
+        padding: 25px 0px;
+        margin: 30px;
+    }
+   
+    
+    .logo{
+        color: rgb(250, 250, 250);
+        font-size: 1.5rem;
+        padding-left: 40px;
+        margin: 20px;
+    }
+    .navbar{
+        padding: 10px 30px;
+        font-size: 1.2rem;
+        display: flex;
+        margin-right: 80px;
+        gap: 10px;
+    
+        padding-left: 40px;
+
+        }
+    .navbar  a{
+        text-decoration: none;
+        margin: 20px;
+        color: rgb(246, 240, 240);
+        font-size: 50px;
+        font-family: "Abril Fatface", serif;
+        }
+        nav ul{
+            float: left;
+        }
+
+    .leftSection{
+        /* border: 2px solid red; */
+        width: 500px;
+        margin: 150px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 50px;
+    }
+    .leftSection span{
+        font-size: 9rem;
+        }
+        .leftSection p{
+            font-size: 40px;
+        }
+
+}
+
+@media(max-width:700px){
+    .navbar  a{
+        text-decoration: none;
+        margin: 20px;
+        color: rgb(246, 240, 240);
+        font-size: 60px;
+        font-family: "Abril Fatface", serif;
+        }
+    .leftSection{
+        /* border: 2px solid red; */
+        width: 720px;
+        margin: 150px;
+        height: 80px;
+        /* align-items: center;*/
+        justify-content: center;
+        text-align: center; 
+        padding-left: 200px;
+    }
+    .leftSection span{
+        font-size: 10rem;
+        }
+        .leftSection p{
+            font-size: 45px;
+        }
+
+
+        
+    header::before{
+        background: url('https://4.bp.blogspot.com/-NusT8_BxXvU/WigtjvJvKLI/AAAAAAABOyg/VP7N3f2xgkAOOU2LPKaVCBdTsMiDJp_EgCK4BGAYYCw/s1600/Web-design.jpg')no-repeat center center/cover;
+        /* background-size: cover; */
+        content: "";
+         position: absolute; 
+        top: 0;
+        left: 0;
+        width: 250%;
+        height: 250%;
+        z-index: -1;
+        opacity: 0.5;
+        
+    }
+    }
+
+   
